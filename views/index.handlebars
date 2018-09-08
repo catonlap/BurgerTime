@@ -1,6 +1,6 @@
 <h1>BurgerTime</h1>
 
-<h2>Items on the Menu</h2>
+<h2>Items on your plate</h2>
 
 <ul>
   {{#each cats}}
@@ -10,7 +10,7 @@
   {{/each}}
 </ul>
 
-<h2>Items not on the Menu</h2>
+<h2>Items on the Menu</h2>
 
 <ul>
   {{#each cats}}
@@ -20,7 +20,7 @@
   {{/each}}
 </ul>
 
-<h2>Add Menu Items</h2>
+<h2>Add Items Here</h2>
 <form class="create-form">
 
   <div class="form-group">
@@ -29,8 +29,8 @@
   </div>
 
   <div class="form-group">
-    <input type="radio" name="sleepy" value="1" checked> On Menu<br>
-    <input type="radio" name="sleepy" value="0"> Off Menu
+    <input type="radio" name="sleepy" value="1" checked> To Plate<br>
+    <input type="radio" name="sleepy" value="0"> To Menu
   </div>
 
   <button type="submit">Add Menu Item</button>
