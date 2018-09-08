@@ -1,7 +1,12 @@
+#container {
+  left: 50%;
+  top: 50%;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: green;
 }
 
 .label {
