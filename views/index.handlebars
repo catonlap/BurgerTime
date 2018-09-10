@@ -4,13 +4,11 @@
 
 <h2>Items on your plate</h2>
 
-<ul>
   {{#each cats}}
     {{#unless sleepy}}
       {{> cats/cat-block sleep=true}}
     {{/unless}}
   {{/each}}
-</ul>
 
 <h2>Items on the Menu</h2>
 
