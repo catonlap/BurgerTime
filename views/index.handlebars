@@ -1,28 +1,26 @@
-<div id = burgerz>
-
 <h1>BurgerTime</h1>
-
+<br>
+<br>
 <h2>Items on your plate</h2>
-
   {{#each cats}}
     {{#unless sleepy}}
       {{> cats/cat-block sleep=true}}
     {{/unless}}
   {{/each}}
+<br>
+<br>
 
 <h2>Items on the Menu</h2>
-
-<ul>
   {{#each cats}}
     {{#if sleepy}}
       {{> cats/cat-block sleep=false}}
     {{/if}}
   {{/each}}
-</ul>
+<br>
+<br>
 
 <h2>Add Items Here</h2>
 <form class="create-form">
-
   <div class="form-group">
     <label for="ca">Item Name:</label>
     <input type="text" id="ca" name="name">
@@ -35,4 +33,3 @@
 
   <button type="submit">Add Item</button>
 </form>
-</div>
